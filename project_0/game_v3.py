@@ -15,7 +15,7 @@ def smart_predict(x: int, verh: int = 100, niz: int = 1) -> int:
     number - начальная точка, середина отреза
     count - счетчик
     """
-    number = (verh+niz)//2 
+    number = (verh + niz)//2 
     count = 3
     if x == verh :
         return 1
